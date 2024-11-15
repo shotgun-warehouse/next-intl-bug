@@ -15,7 +15,7 @@ export default async function VenuesPage(props: Props) {
   const params = await props.params;
   setRequestLocale(params.locale);
 
-  const t = await getTranslations("VenuesPage");
+  const t = await getTranslations("venues");
 
   return <div>{t("test")}</div>;
 }
