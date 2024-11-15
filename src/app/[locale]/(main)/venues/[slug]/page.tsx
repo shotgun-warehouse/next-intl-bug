@@ -1,4 +1,4 @@
-import { Locale } from "~/i18n/config";
+import type { Locale } from "~/i18n/config";
 import { setRequestLocale } from "next-intl/server";
 
 export const revalidate = 3600;

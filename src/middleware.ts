@@ -1,5 +1,5 @@
 import createMiddleware from "next-intl/middleware";
-import { NextRequest } from "next/server";
+import type { NextRequest } from "next/server";
 import { routing } from "./i18n/routing";
 
 const PATHNAME_REGEX = /^\/([a-z-]{2}|[a-z-]{5})(.*)/;

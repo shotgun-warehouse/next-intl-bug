@@ -1,4 +1,4 @@
-import { Locale } from "~/i18n/config";
+import type { Locale } from "~/i18n/config";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { getMetadata } from "./metadata";

@@ -1,7 +1,7 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
-import { DEFAULT_LOCALE, Locale } from "~/i18n/config";
+import { DEFAULT_LOCALE, type Locale } from "~/i18n/config";
 import { Link } from "~/navigation";
 import { getMetadata } from "./metadata";
 

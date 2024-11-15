@@ -1,5 +1,5 @@
 import deepmerge from "deepmerge";
-import { AbstractIntlMessages } from "next-intl";
+import type { AbstractIntlMessages } from "next-intl";
 import { getRequestConfig } from "next-intl/server";
 import { getLocaleFallback, isLocale, type Locale } from "./config";
 import { routing } from "./routing";
