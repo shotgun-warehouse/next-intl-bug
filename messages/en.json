@@ -2,6 +2,13 @@
   "header": {
     "test": "header"
   },
+  "home": {
+    "metadata_title": "metadata_title",
+    "metadata_description": "metadata_description"
+  },
+  "not_found": {
+    "home": "home"
+  },
   "IndexPage": {
     "title": "Hello!"
   },
