@@ -1,8 +1,9 @@
+import { Locale } from "@/src/i18n/config";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 interface Props {
   params: Promise<{
-    locale: string;
+    locale: Locale;
     slugs: string[];
   }>;
 }

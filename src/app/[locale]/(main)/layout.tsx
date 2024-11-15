@@ -1,9 +1,10 @@
+import { Locale } from "@/src/i18n/config";
 import { setRequestLocale } from "next-intl/server";
 
 interface Props {
   children: React.ReactNode;
   params: Promise<{
-    locale: string;
+    locale: Locale;
   }>;
 }
 
