@@ -1,4 +1,4 @@
-import { Locale } from "@/src/i18n/config";
+import { Locale } from "~/i18n/config";
 import { setRequestLocale } from "next-intl/server";
 import { PageHeader } from "./_components/header";
 

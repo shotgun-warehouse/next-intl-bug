@@ -1,4 +1,4 @@
-import { Locale } from "@/src/i18n/config";
+import { Locale } from "~/i18n/config";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 interface Props {

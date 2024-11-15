@@ -14,9 +14,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [{"name": "next"}],
+    "plugins": [{ "name": "next" }],
     "types": ["node"],
-    "paths": {"@/*": ["./*"]},
+    "paths": {
+      "~/*": ["./src/*"]
+    },
     "typeRoots": ["./types", "./node_modules/@types"]
   },
   "include": [
