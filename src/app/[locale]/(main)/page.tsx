@@ -30,8 +30,8 @@ export default async function HomePage(props: Props) {
   setRequestLocale(params.locale);
 
   return (
-    <>
+    <div>
       <h1>Home</h1>
-    </>
+    </div>
   );
 }
