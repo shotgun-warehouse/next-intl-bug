@@ -1,5 +1,6 @@
 import { Locale } from "@/src/i18n/config";
 import { setRequestLocale } from "next-intl/server";
+import { PageHeader } from "./_components/header";
 
 interface Props {
   children: React.ReactNode;
@@ -14,5 +15,10 @@ export default async function MainLayout(props: Props) {
 
   setRequestLocale(params.locale);
 
-  return <>{children}</>;
+  return (
+    <>
+      <PageHeader />
+      {children}
+    </>
+  );
 }

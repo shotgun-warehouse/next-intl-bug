@@ -1,4 +1,7 @@
 {
+  "header": {
+    "test": "header"
+  },
   "IndexPage": {
     "title": "Hello!"
   },
