@@ -1,5 +1,13 @@
-# next-intl-bug-repro-app-router
+# next-intl-bug
 
-A minimalistic example that uses the Next.js App Router, useful for creating bug reproductions.
+Optional Catch-all Segments broken when empty in Next.js 15
 
-[Demo](https://next-intl-bug-repro-app-router.vercel.app)
+Next-intl issue: https://github.com/amannn/next-intl/issues/xxxx
+
+Repo: https://github.com/shotgun-warehouse/next-intl-bug
+
+Home page: https://next-intl-bug.vercel.app/en
+
+Buggy page: https://next-intl-bug.vercel.app/en/venues/-
+
+Related Next.js app router doc: https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes#optional-catch-all-segments
